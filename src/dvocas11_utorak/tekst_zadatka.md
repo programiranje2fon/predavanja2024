@@ -16,11 +16,11 @@ Napraviti javnu klasu **BlogPost** u paketu **dvocas11_utorak.zadatak1** koja im
 - privatni atribut **datum** koji predstavlja datum kreiranja blog post-a.
 
 - javni besparametarski konstruktor koji samo postavlja atribut datum na trenutni datum i vreme.
-- javne **get i set metode** za sve atribute. Atributi naslov, tekst i datum ne smeju biti null. U slučaju unosa nedozvoljenih vrednosti baciti izuzetak klase NullPointerException sa odgovarajućom porukom.
-- redefinisanu javnu **toString** metodu koja vraća String sa svim podacima o iz BlogPost-a, i to tako da se datum vraća u prvom redu teksta, da onda ide prazan red teksta, da onda ide naslov, pa opet prazan red teksta i onda tekst Blogpost-a.**(ručno unošenje znaka za kraj reda \n, ali i System.lineSeparator())**
+- javne **get i set metode** za sve atribute. Atributi naslov, sadržaj i datum ne smeju biti null. U slučaju unosa nedozvoljenih vrednosti baciti izuzetak klase NullPointerException sa odgovarajućom porukom.
+- redefinisanu javnu **toString** metodu koja vraća String sa svim podacima o iz BlogPost-a, i to tako da se datum vraća u prvom redu teksta, da onda ide prazan red teksta, da onda ide naslov, pa opet prazan red teksta i onda sadržaj Blogpost-a.**(ručno unošenje znaka za kraj reda \n, ali i System.lineSeparator())**
 
 
-Napraviti javnu klasu **TestBlog** u paketu **dvocas11_utorak.zadatak1.test** koja u main metodi pravi jedan objekat klase BlogPost i unosi u njega naslov "Prvi post" i tekst "Danas je lep dan.". Ispisati napravljeni BlogPost na ekranu.
+Napraviti javnu klasu **TestBlog** u paketu **dvocas11_utorak.zadatak1.test** koja u main metodi pravi jedan objekat klase BlogPost i unosi u njega naslov "Prvi post" i sadržaj "Danas je lep dan.". Ispisati napravljeni BlogPost na ekranu.
 
 
 
