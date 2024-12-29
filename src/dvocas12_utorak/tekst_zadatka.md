@@ -16,7 +16,7 @@ Napraviti javnu klasu **Osoba** u paketu **dvocas12_utorak.zadatak1.poslovna_log
 
 
 
-- javne **get i set metode** za ve ove atribute. Atributi imePrezime i adresa ne smeju biti null niti prazni stringovi. Telefon mora biti broj veći od nule. U slučaju pokušaja unosa nedozvoljenih vrednosti baciti izuzetak sa odgovarajućom porukom.
+- Javne **get i set metode** za sve ove atribute. Atributi ime, prezime i adresa ne smeju biti null niti prazni stringovi. Telefon mora biti broj veći od nule. U slučaju pokušaja unosa nedozvoljenih vrednosti baciti izuzetak sa odgovarajućom porukom.
 - redefinisanu javnu **toString** metodu koja vraća String sa svim podacima o Osobi.
 - redefinisanu javnu **equals** metodu koja poredi dva objekta klase Osoba i vraća true ako su im isti ime i prezime, a false ako nisu.
 
